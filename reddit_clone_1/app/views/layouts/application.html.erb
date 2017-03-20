@@ -32,7 +32,7 @@
   </div>
 </header>
 
-<div id="main"class="col-md-9 center-block">
+<div id="main_content"class="col-md-9 center-block">
   <% flash.each do |name, msg| %>
      <%= content_tag(:div, msg, class: "alert alert-#{name}") %>
   <% end %>
